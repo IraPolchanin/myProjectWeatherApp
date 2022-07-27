@@ -62,5 +62,5 @@ function changeGeoLocation(_event_) {
 }
 
 let currentLocation = document.querySelector("#current-location-btn");
-cityForm.addEventListener("click", changeGeoLocation);
+currentLocation.addEventListener("click", changeGeoLocation);
 
